@@ -11,7 +11,10 @@ public class sheep extends animal{
     @Override
     public String toString() {
         return "sheep{" +
-                "lastSheared='" + lastSheared + '\'' +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", breed='" + breed + '\'' +
+                ", lastSheared='" + lastSheared + '\'' +
                 '}';
     }
 

@@ -11,7 +11,10 @@ public class cow extends animal {
     @Override
     public String toString() {
         return "cow{" +
-                "lastFed='" + lastFed + '\'' +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", breed='" + breed + '\'' +
+                ", lastFed='" + lastFed + '\'' +
                 '}';
     }
 
