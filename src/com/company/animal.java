@@ -5,6 +5,13 @@ public class animal {
     protected int age;
     protected String breed;
 
+
+    public animal(String name, int age, String breed) {
+        this.name = name;
+        this.age = age;
+        this.breed = breed;
+    }
+
     @Override
     public String toString() {
         return "animal{" +
